@@ -42,7 +42,7 @@ $ pip install scikit-learn
 Working with linear regression model is very simple. Create a model, train it and then use it, as described the schematic below:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/25873978/64198525-68118a00-ce56-11e9-805c-a4229e94261c.jpg">
+  <img src="https://user-images.githubusercontent.com/25873978/64200840-4cf54900-ce5b-11e9-921c-1c7e57bf6c0d.png">
 </p>
 
 ## Train The Model
@@ -55,5 +55,20 @@ from sklearn.linear_model import LinearRegression
 predictor = LinearRegression(n_jobs = -1)
 predictor.fit(X = TRAIN_INPUT, y = TRAIN_OUTPUT)
 ```
+
+## Testbench
+
+For a defined set as **X = [[10, 20, 30]]**, the outcome should be **10 + 2 * 20 + 3 * 30 = 140**. Let's see what we got with a simple testbench:
+
+```python
+X_TEST = [[10, 20, 30]]
+outcome = predictor.predict(X=X_TEST)
+coefficients = predictor.coef_
+
+print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
+```
+
+> Outcome: [140.]
+> Coefficients: [1. 2. 3.]
 
 

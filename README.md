@@ -45,4 +45,15 @@ Working with linear regression model is very simple. Create a model, train it an
   <img src="https://user-images.githubusercontent.com/25873978/64198525-68118a00-ce56-11e9-805c-a4229e94261c.jpg">
 </p>
 
+## Train The Model
+
+As described the code above, we have the training set ready, so create a Linear Regression Model and pass it the training data:
+
+```python
+from sklearn.linear_model import LinearRegression
+
+predictor = LinearRegression(n_jobs = -1)
+predictor.fit(X = TRAIN_INPUT, y = TRAIN_OUTPUT)
+```
+
 

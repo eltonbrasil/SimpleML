@@ -71,4 +71,5 @@ print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
 
 > Coefficients: [1. 2. 3.]
 
+The model had access to the training data, through which it calculated the weights to assign to the inputs to arrive at the desired output. On giving test data, it successfully managed to get right answer. 
 

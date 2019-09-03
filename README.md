@@ -39,7 +39,7 @@ Before we implement a linear regression model, do not forget to install **scikit
 ```
 $ pip install scikit-learn
 ```
-Working with linear regression model is very simple. Create a model, train it and then use it, as described the schematic below:
+Working with linear regression model is very simple. Create a model, train it and then use it, as shown in the schematic below:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/25873978/64200840-4cf54900-ce5b-11e9-921c-1c7e57bf6c0d.png">

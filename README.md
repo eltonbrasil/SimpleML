@@ -1,5 +1,4 @@
-# SimpleML
-## Simple Machine Learning Model in Python 
+# Simple Machine Learning Model implemented in Python 
 
 We present in this repository, a simple Machine Learning Model implemented in Python, we will train a Linear Regression Model and expect to perfom correct on a fresh input. 
 

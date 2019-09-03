@@ -73,3 +73,8 @@ print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
 
 The model had access to the training data, through which it calculated the weights to assign to the inputs to arrive at the desired output. On giving test data, it successfully managed to get right answer. 
 
+## To compile your testbench using Python tools:
+```
+$ git clone https://github.com/eltonbrasil/SimpleML.git
+$ python model.py
+```

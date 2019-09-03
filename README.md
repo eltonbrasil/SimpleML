@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25873978/64204812-8bdbcc80-ce64-11e9-9339-3977abdfd78e.jpg">
+</p>
+
 # Simple Machine Learning Model implemented in Python 
 
 We present in this repository, a simple Machine Learning Model implemented in Python, we will train a Linear Regression Model and expect to perfom correct on a fresh input. 

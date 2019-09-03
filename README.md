@@ -67,8 +67,8 @@ coefficients = predictor.coef_
 
 print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
 ```
-
 > Outcome: [140.]
+
 > Coefficients: [1. 2. 3.]
 
 

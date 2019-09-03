@@ -78,3 +78,10 @@ The model had access to the training data, through which it calculated the weigh
 $ git clone https://github.com/eltonbrasil/SimpleML.git
 $ python model.py
 ```
+
+## Author
+
+* **Elton Brasil da Costa**
+* [Curriculum Lattes (Portuguese)](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4459901A6)
+* [Linkedin](https://www.linkedin.com/in/eltonbrasil/)
+* Contact: elton.costa@ee.ufcg.edu.br

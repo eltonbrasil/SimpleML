@@ -1,2 +1,2 @@
 # SimpleML
-Simple Machine Learning in Python 
+Simple Machine Learning Model in Python 
